@@ -7,7 +7,7 @@ from collections import OrderedDict
 import torch.nn.functional as F
 
 
-class IRRA(nn.Module):
+class VFE_TPS(nn.Module):
     def __init__(self, args, num_classes=11003):
         super().__init__()
         self.args = args
@@ -355,7 +355,7 @@ class IRRA(nn.Module):
 
 
 def build_model(args, num_classes=11003):
-    model = IRRA(args, num_classes)
+    model = VFE_TPS(args, num_classes)
     # covert model to fp16
     convert_weights(model)
     return model
