@@ -1,6 +1,9 @@
 # VFE_TPS
 Code for our paper "Enhancing Visual Representation for Text-based Person Searching"
 
+## Model Overview
+![Model Architecture]("/img/model.png")
+
 ## Usage
 ### Requirements
 we use single Nvidia RTX 3090 GPU (24G) for training and testing
