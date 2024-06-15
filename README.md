@@ -2,7 +2,7 @@
 Code for our paper "Enhancing Visual Representation for Text-based Person Searching"
 
 ## Model Overview
-![Model Architecture](model.png)
+![Model Architecture](https://github.com/zhangweifeng1218/VFE_TPS/blob/main/img/model.png)
 
 ## Usage
 ### Requirements
