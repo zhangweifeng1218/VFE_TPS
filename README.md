@@ -2,7 +2,7 @@
 Code for our paper "Enhancing Visual Representation for Text-based Person Searching"
 
 ## Model Overview
-![Model Architecture]("/img/model.png")
+![Model Architecture](model.png)
 
 ## Usage
 ### Requirements
